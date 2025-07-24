@@ -65,10 +65,6 @@ public class GameMaster {
                 ally.attack(enemy);
             }
         }
-//        if (!enemy.isAlive()) {
-//            System.out.println(target.getName() + " を倒した！");
-//            monsters.remove(target);
-//        }
 
         System.out.println("\n敵の総攻撃！");
         for(Monster enemy : monsters){
@@ -76,10 +72,6 @@ public class GameMaster {
                 enemy.attack(ally);
             }
         }
-//        if (!target.isAlive()) {
-//            System.out.println(target.getName() + " を倒した！");
-//            monsters.remove(target);
-//        }
 
         System.out.println("\nダメージを受けた勇者が突然光りだした！");
 

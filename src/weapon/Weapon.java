@@ -6,8 +6,8 @@ public abstract class Weapon {
     private int cost = 0;
 
     public Weapon(String name,int damage) {
-        setName(getName());
-        setDamage(getDamage());
+        setName(name);
+        setDamage(damage);
     }
 
     public String getName() {
